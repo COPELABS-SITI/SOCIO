@@ -1,0 +1,170 @@
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity}{}\section{com.\+social.\+proximity.\+Social\+Proximity Class Reference}
+\label{classcom_1_1social_1_1proximity_1_1_social_proximity}\index{com.\+social.\+proximity.\+Social\+Proximity@{com.\+social.\+proximity.\+Social\+Proximity}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_1_1_custom_comparator}{Custom\+Comparator}
+\item 
+class {\bfseries Service\+B\+T\+Listener}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_aca9e6f96e31a9714fed5967a7710ad1e}{Social\+Proximity} (Context \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a094349a2f8b31f6f13353abec962f0a4}{context}, \hyperlink{classcom_1_1social_1_1proximity_1_1_database_functions}{Database\+Functions} \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ac36be388d1519a9c1ec298bcac0aa3f2}{datasource})
+\item 
+boolean \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a5cd69f250d4aca9e436760ce078e762b}{is\+Device\+On\+D\+B} (String device\+Add)
+\item 
+Array\+List$<$ \hyperlink{classcom_1_1social_1_1proximity_1_1_social_weight}{Social\+Weight} $>$ \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ae1acae13d8ea15aedcd8d7c758f45aef}{get\+Social\+Weight\+Details} ()
+\item 
+void \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_aeea1aa00b7a490fdf71eeb9cb68ab9dd}{close} (Context \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a094349a2f8b31f6f13353abec962f0a4}{context})
+\item 
+int \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a2f777f371e2f1b98c1f6d3d476ecd614}{get\+Time\+Slot} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a4019a76ca6d383cb77b9e81f1b7c2cca}{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E} = \char`\"{}com.\+social.\+proximity.\+C\+H\+A\+N\+G\+E\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a64e73fce0d2fe51898d7b6218e2fd744}{notify\+Data\+Base\+Change} ()
+\item 
+void \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_aa5ed8999ce753a87c15272798eaf99be}{write\+To\+S\+D} (String text)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ac2be9322648a27ced5d00e8eae40bac4}{T\+A\+G} = \char`\"{}Bluetooth Testing\char`\"{}
+\item 
+\hyperlink{classcom_1_1social_1_1proximity_1_1_b_t_manager}{B\+T\+Manager} \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a7833a112a845f6ff11f5101bbd40d98b}{my\+B\+T\+Manager}
+\item 
+Service\+B\+T\+Listener \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a54409038923d01acde8779da84812350}{bt\+Listener}
+\item 
+Alarm\+Manager \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_afddec12a7de1b3e5e9dc86da413da78f}{alarm\+Mgr}
+\item 
+Pending\+Intent \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ae91f5ac95c6c68993a47e70e8e7f5854}{alarm\+Intent}
+\item 
+\hyperlink{classcom_1_1social_1_1proximity_1_1_on_new_hour_update}{On\+New\+Hour\+Update} \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ab3d29f906dd80ba99f79bbe848658294}{new\+Hour}
+\item 
+Context \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_a094349a2f8b31f6f13353abec962f0a4}{context}
+\item 
+\hyperlink{classcom_1_1social_1_1proximity_1_1_database_functions}{Database\+Functions} \hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity_ac36be388d1519a9c1ec298bcac0aa3f2}{datasource}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_aca9e6f96e31a9714fed5967a7710ad1e}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!Social\+Proximity@{Social\+Proximity}}
+\index{Social\+Proximity@{Social\+Proximity}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{Social\+Proximity(\+Context context, Database\+Functions datasource)}]{\setlength{\rightskip}{0pt plus 5cm}com.\+social.\+proximity.\+Social\+Proximity.\+Social\+Proximity (
+\begin{DoxyParamCaption}
+\item[{Context}]{context, }
+\item[{{\bf Database\+Functions}}]{datasource}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_aca9e6f96e31a9714fed5967a7710ad1e}
+\hyperlink{classcom_1_1social_1_1proximity_1_1_social_proximity}{Social\+Proximity} constructor. 
+\begin{DoxyParams}{Parameters}
+{\em context} & The context which provides access to resources and specific classes of the application. \\
+\hline
+{\em datasource} & The object that allows the handling of tables for social proximity computation. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_aeea1aa00b7a490fdf71eeb9cb68ab9dd}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!close@{close}}
+\index{close@{close}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{close(\+Context context)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+social.\+proximity.\+Social\+Proximity.\+close (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_aeea1aa00b7a490fdf71eeb9cb68ab9dd}
+Stops Bluetooth-\/related tasks (i.\+e., scanning, unregister broadcast receivers) 
+\begin{DoxyParams}{Parameters}
+{\em context} & The context which provides access to resources and specific classes of the application \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_ae1acae13d8ea15aedcd8d7c758f45aef}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!get\+Social\+Weight\+Details@{get\+Social\+Weight\+Details}}
+\index{get\+Social\+Weight\+Details@{get\+Social\+Weight\+Details}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{get\+Social\+Weight\+Details()}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<${\bf Social\+Weight}$>$ com.\+social.\+proximity.\+Social\+Proximity.\+get\+Social\+Weight\+Details (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_ae1acae13d8ea15aedcd8d7c758f45aef}
+Provides a list of encountered peers and the social weights towards them. \begin{DoxyReturn}{Returns}
+list\+Weights List of peers with weights sorted in a descending way. 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a2f777f371e2f1b98c1f6d3d476ecd614}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!get\+Time\+Slot@{get\+Time\+Slot}}
+\index{get\+Time\+Slot@{get\+Time\+Slot}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{get\+Time\+Slot()}]{\setlength{\rightskip}{0pt plus 5cm}int com.\+social.\+proximity.\+Social\+Proximity.\+get\+Time\+Slot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a2f777f371e2f1b98c1f6d3d476ecd614}
+Provides the current time slot \begin{DoxyReturn}{Returns}
+current\+Time\+Slot The actual time slot 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a5cd69f250d4aca9e436760ce078e762b}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!is\+Device\+On\+D\+B@{is\+Device\+On\+D\+B}}
+\index{is\+Device\+On\+D\+B@{is\+Device\+On\+D\+B}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{is\+Device\+On\+D\+B(\+String device\+Add)}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\+social.\+proximity.\+Social\+Proximity.\+is\+Device\+On\+D\+B (
+\begin{DoxyParamCaption}
+\item[{String}]{device\+Add}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a5cd69f250d4aca9e436760ce078e762b}
+Checks whether the device is in D\+B. 
+\begin{DoxyParams}{Parameters}
+{\em device\+Add} & The device M\+A\+C address. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if device is in D\+B, false otherwise 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a64e73fce0d2fe51898d7b6218e2fd744}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!notify\+Data\+Base\+Change@{notify\+Data\+Base\+Change}}
+\index{notify\+Data\+Base\+Change@{notify\+Data\+Base\+Change}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{notify\+Data\+Base\+Change()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+social.\+proximity.\+Social\+Proximity.\+notify\+Data\+Base\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a64e73fce0d2fe51898d7b6218e2fd744}
+Notifies a database change to the listeners. \hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_aa5ed8999ce753a87c15272798eaf99be}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!write\+To\+S\+D@{write\+To\+S\+D}}
+\index{write\+To\+S\+D@{write\+To\+S\+D}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{write\+To\+S\+D(\+String text)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+social.\+proximity.\+Social\+Proximity.\+write\+To\+S\+D (
+\begin{DoxyParamCaption}
+\item[{String}]{text}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_aa5ed8999ce753a87c15272798eaf99be}
+Writes on a file for Bluetooth debugging 
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_ae91f5ac95c6c68993a47e70e8e7f5854}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!alarm\+Intent@{alarm\+Intent}}
+\index{alarm\+Intent@{alarm\+Intent}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{alarm\+Intent}]{\setlength{\rightskip}{0pt plus 5cm}Pending\+Intent com.\+social.\+proximity.\+Social\+Proximity.\+alarm\+Intent\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_ae91f5ac95c6c68993a47e70e8e7f5854}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_afddec12a7de1b3e5e9dc86da413da78f}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!alarm\+Mgr@{alarm\+Mgr}}
+\index{alarm\+Mgr@{alarm\+Mgr}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{alarm\+Mgr}]{\setlength{\rightskip}{0pt plus 5cm}Alarm\+Manager com.\+social.\+proximity.\+Social\+Proximity.\+alarm\+Mgr\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_afddec12a7de1b3e5e9dc86da413da78f}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a54409038923d01acde8779da84812350}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!bt\+Listener@{bt\+Listener}}
+\index{bt\+Listener@{bt\+Listener}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{bt\+Listener}]{\setlength{\rightskip}{0pt plus 5cm}Service\+B\+T\+Listener com.\+social.\+proximity.\+Social\+Proximity.\+bt\+Listener\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a54409038923d01acde8779da84812350}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a094349a2f8b31f6f13353abec962f0a4}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!context@{context}}
+\index{context@{context}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{context}]{\setlength{\rightskip}{0pt plus 5cm}Context com.\+social.\+proximity.\+Social\+Proximity.\+context\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a094349a2f8b31f6f13353abec962f0a4}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a4019a76ca6d383cb77b9e81f1b7c2cca}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E}}
+\index{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E@{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\+social.\+proximity.\+Social\+Proximity.\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+C\+H\+A\+N\+G\+E = \char`\"{}com.\+social.\+proximity.\+C\+H\+A\+N\+G\+E\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a4019a76ca6d383cb77b9e81f1b7c2cca}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_ac36be388d1519a9c1ec298bcac0aa3f2}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!datasource@{datasource}}
+\index{datasource@{datasource}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{datasource}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Database\+Functions} com.\+social.\+proximity.\+Social\+Proximity.\+datasource\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_ac36be388d1519a9c1ec298bcac0aa3f2}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_a7833a112a845f6ff11f5101bbd40d98b}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!my\+B\+T\+Manager@{my\+B\+T\+Manager}}
+\index{my\+B\+T\+Manager@{my\+B\+T\+Manager}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{my\+B\+T\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}{\bf B\+T\+Manager} com.\+social.\+proximity.\+Social\+Proximity.\+my\+B\+T\+Manager\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_a7833a112a845f6ff11f5101bbd40d98b}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_ab3d29f906dd80ba99f79bbe848658294}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!new\+Hour@{new\+Hour}}
+\index{new\+Hour@{new\+Hour}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{new\+Hour}]{\setlength{\rightskip}{0pt plus 5cm}{\bf On\+New\+Hour\+Update} com.\+social.\+proximity.\+Social\+Proximity.\+new\+Hour\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_ab3d29f906dd80ba99f79bbe848658294}
+\hypertarget{classcom_1_1social_1_1proximity_1_1_social_proximity_ac2be9322648a27ced5d00e8eae40bac4}{}\index{com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}!T\+A\+G@{T\+A\+G}}
+\index{T\+A\+G@{T\+A\+G}!com\+::social\+::proximity\+::\+Social\+Proximity@{com\+::social\+::proximity\+::\+Social\+Proximity}}
+\subsubsection[{T\+A\+G}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\+social.\+proximity.\+Social\+Proximity.\+T\+A\+G = \char`\"{}Bluetooth Testing\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1social_1_1proximity_1_1_social_proximity_ac2be9322648a27ced5d00e8eae40bac4}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/social/proximity/\hyperlink{_social_proximity_8java}{Social\+Proximity.\+java}\end{DoxyCompactItemize}
