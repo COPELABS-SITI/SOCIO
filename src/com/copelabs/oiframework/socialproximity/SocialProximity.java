@@ -30,6 +30,7 @@ import android.util.Log;
 /**
  * @version 1.0
  * COPYRIGHTS COPELABS/ULHT, LGPLv3.0, 06-04-2016
+ * Class is part of the SOCIO application.
  * This class is contains the core functionalities of the application. 
  * The BTManager provides all the information from Bluetooth adapter so this class can 
  * perform the social context analysis prior to storing the required information in the database.

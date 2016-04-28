@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * @version 1.0
  * COPYRIGHTS COPELABS/ULHT, LGPLv3.0, 06-04-2016
+ * Class is part of the SOCIO application.
  * This class creates the tables and respective attributes in the database.
  * @author Waldir Moreira (COPELABS/ULHT)
  */

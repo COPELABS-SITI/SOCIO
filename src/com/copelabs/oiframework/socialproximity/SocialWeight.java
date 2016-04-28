@@ -6,6 +6,7 @@ import android.os.Parcelable;
 /**
  * @version 1.0
  * COPYRIGHTS COPELABS/ULHT, LGPLv3.0, 06-04-2016
+ * Class is part of the SOCIO application.
  * This class holds information about a device: name, MAC address, and social weight towards it.
  * @author Waldir Moreira (COPELABS/ULHT)
  */
