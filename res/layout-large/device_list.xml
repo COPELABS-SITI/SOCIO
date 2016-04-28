@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top">
+
+   
+    <!-- Self information -->
+    
+
+    <TextView
+        android:id="@+id/peers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center_vertical"
+        android:text="@string/label_peers" />
+
+    
+
+    <!-- Available peers -->
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/peers"
+        android:drawSelectorOnTop="false" />
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/android:list"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_message" />
+</RelativeLayout>

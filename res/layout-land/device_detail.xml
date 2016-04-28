@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:visibility="gone">
+            
+   <!--          
+            <EditText 
+                android:id="@+id/edit_message"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:hint="@string/edit_message"   
+        		android:layout_below="@+id/btn_disconnect"
+        		android:inputType="textAutoComplete"  >
+      		</EditText>
+      		
+            <EditText 
+        		android:layout_height="wrap_content"
+        		android:layout_width="wrap_content"
+        		android:layout_below="@+id/edit_message"
+        		android:hint="@string/pick_friend_email"
+        		android:id="@+id/friend_by_mail"
+        		android:inputType="textEmailAddress">
+     
+    		</EditText>
+            <Button
+                android:id="@+id/btn_start_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_file_button"
+                android:layout_below="@+id/friend_by_mail"
+                
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/btn_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/btn_start_client"
+                android:layout_alignBottom="@+id/btn_start_client"
+                android:text="@string/get_xml"
+                
+                android:visibility="gone" />
+                
+                 -->
+                 
+            <Button
+                android:id="@+id/btn_disconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@android:color/darker_gray"
+                android:textStyle="bold"
+                android:text="@string/disconnect_peer_button" />
+        
+<!--        <TextView
+            android:id="@+id/device_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/btn_disconnect"/>
+            
+            -->
+        <TextView
+            android:id="@+id/device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/btn_disconnect" />
+        <TextView
+            android:id="@+id/group_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/btn_disconnect"
+            android:layout_below="@+id/device_info" />
+  <!--        <TextView
+            android:id="@+id/group_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/group_owner"/>
+            -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_disconnect"
+            android:textColor="@android:color/holo_red_light"
+            android:id="@+id/status_text">
+        </TextView>
+        <ScrollView
+    		android:id="@+id/SCROLLER_ID"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:scrollbars="vertical"
+    		android:fillViewport="true"
+    		android:layout_below="@+id/status_text">
+    		
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:textColor="@android:color/white"
+            android:id="@+id/receivedMsg">
+        </TextView>
+        </ScrollView>>
+    
+    </RelativeLayout>
+   
