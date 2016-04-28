@@ -1,0 +1,242 @@
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing}{}\section{com.\+copelabs.\+oiframework.\+router.\+Routing Class Reference}
+\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing}\index{com.\+copelabs.\+oiframework.\+router.\+Routing@{com.\+copelabs.\+oiframework.\+router.\+Routing}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae0f95c53f3cbd90db0dabba7dcc7cced}{Routing} (Context context)
+\item 
+List$<$ User\+Device $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a477c2e1f830054864334dc96d08dc5e7}{get\+Contact\+List} ()
+\item 
+Map$<$ String, Integer $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9cb0fb0ced4521962b9c44bcb94d61bb}{get\+S\+W\+List} (Array\+List$<$ String $>$ m\+Devices)
+\item 
+Map$<$ String, Integer $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_affc739caaa3e1da2414ce75cd9af2433}{get\+All\+S\+W\+List} ()
+\item 
+List$<$ String $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9a667c08f302af1b2d3b8a934739505d}{get\+Local\+Info} ()
+\item 
+String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_abb25bf0444ba72c9963a04cc7390fd7e}{get\+Local\+Mac\+Address} ()
+\item 
+String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac2b1e57ed2b2a47b4cd44a80ddcf3ef7}{get\+Local\+Name} ()
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac888bfc58783ff88e2d59266c83d626e}{stop} ()
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a226edc7be42ceb42c6a010685cdc7034}{set\+Routing\+Listener} (\hyperlink{interfacecom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_listener}{Routing\+Listener} listener)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a0a869c067165f75ab986aea8f3befee6}{new\+Content\+Available} (\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} m\+Packet)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \hyperlink{interfacecom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_listener}{Routing\+Listener} $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a7be56b16f52fd380dc20886c7b660878}{listeners} = new Array\+List$<$\hyperlink{interfacecom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_listener}{Routing\+Listener}$>$ ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a49b371c77210ef1dd565cc7c9217b046}{T\+A\+G} =\char`\"{}Routing\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae4f1793d12c6d079cf5b9881c3c37da8}{add\+Colon\+M\+A\+C} (String to\+Convert)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a858226e24ce2d6dd6c80579d59d4d32b}{announce\+List\+Social\+Weight} (Map$<$ String, Integer $>$ m\+List)
+\item 
+Map$<$ String, String $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aea763e399345256b6992471ca927c4eb}{convert\+Map\+Value\+Double\+To\+String} (Map$<$ String, Integer $>$ map)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa13558862a8cf3b097941b784cd81adc}{notify\+Packet\+Received} (List$<$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} $>$ m\+List\+Of\+Packets)
+\item 
+Map$<$ String, List$<$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} $>$ $>$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a45f244e08d3e5e71c745c1517f14e419}{get\+List\+Of\+Packets} (List$<$ User\+Device $>$ m\+List\+Of\+User\+Devices)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_acfb99144155277bff901572b3c574c38}{notify\+New\+Device\+Found} (User\+Device m\+User\+Device)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a537f880b57016bb88d8f806977c4b8af}{notify\+Device\+Disappear} (User\+Device m\+User\+Device)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a834835f4188adaa5f18fb428934d52b6}{notify\+Contact\+List\+Updated} (List$<$ User\+Device $>$ m\+List)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2a7f53b5e97ec419cff6ff3022d60d70}{notify\+Error} (int m\+Error)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1socialproximity_1_1_social_proximity}{Social\+Proximity} \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2d75c4e7f78ea50811f94541832a64d1}{p\+Social\+Proximity}
+\item 
+\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1wifi_1_1_wi_fi_direct}{Wi\+Fi\+Direct} \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa0ebfed6845783ed64cd90cce80d56e0}{p\+Wi\+Fi\+Direct}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae0f95c53f3cbd90db0dabba7dcc7cced}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!Routing@{Routing}}
+\index{Routing@{Routing}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{Routing(\+Context context)}]{\setlength{\rightskip}{0pt plus 5cm}com.\+copelabs.\+oiframework.\+router.\+Routing.\+Routing (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae0f95c53f3cbd90db0dabba7dcc7cced}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae4f1793d12c6d079cf5b9881c3c37da8}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!add\+Colon\+M\+A\+C@{add\+Colon\+M\+A\+C}}
+\index{add\+Colon\+M\+A\+C@{add\+Colon\+M\+A\+C}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{add\+Colon\+M\+A\+C(\+String to\+Convert)}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+copelabs.\+oiframework.\+router.\+Routing.\+add\+Colon\+M\+A\+C (
+\begin{DoxyParamCaption}
+\item[{String}]{to\+Convert}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ae4f1793d12c6d079cf5b9881c3c37da8}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a858226e24ce2d6dd6c80579d59d4d32b}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!announce\+List\+Social\+Weight@{announce\+List\+Social\+Weight}}
+\index{announce\+List\+Social\+Weight@{announce\+List\+Social\+Weight}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{announce\+List\+Social\+Weight(\+Map$<$ String, Integer $>$ m\+List)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+announce\+List\+Social\+Weight (
+\begin{DoxyParamCaption}
+\item[{Map$<$ String, Integer $>$}]{m\+List}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a858226e24ce2d6dd6c80579d59d4d32b}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aea763e399345256b6992471ca927c4eb}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!convert\+Map\+Value\+Double\+To\+String@{convert\+Map\+Value\+Double\+To\+String}}
+\index{convert\+Map\+Value\+Double\+To\+String@{convert\+Map\+Value\+Double\+To\+String}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{convert\+Map\+Value\+Double\+To\+String(\+Map$<$ String, Integer $>$ map)}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, String$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+convert\+Map\+Value\+Double\+To\+String (
+\begin{DoxyParamCaption}
+\item[{Map$<$ String, Integer $>$}]{map}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aea763e399345256b6992471ca927c4eb}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_affc739caaa3e1da2414ce75cd9af2433}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+All\+S\+W\+List@{get\+All\+S\+W\+List}}
+\index{get\+All\+S\+W\+List@{get\+All\+S\+W\+List}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+All\+S\+W\+List()}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Integer$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+All\+S\+W\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_affc739caaa3e1da2414ce75cd9af2433}
+Provides a list of all encountered devices and social weight towards them \begin{DoxyReturn}{Returns}
+The list of all encountered devices and social weight towards them, or null 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a477c2e1f830054864334dc96d08dc5e7}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+Contact\+List@{get\+Contact\+List}}
+\index{get\+Contact\+List@{get\+Contact\+List}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+Contact\+List()}]{\setlength{\rightskip}{0pt plus 5cm}List$<$User\+Device$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+Contact\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a477c2e1f830054864334dc96d08dc5e7}
+Provides a list of contact based on the information of devices encountered \begin{DoxyReturn}{Returns}
+The list of contacts or null 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a45f244e08d3e5e71c745c1517f14e419}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+List\+Of\+Packets@{get\+List\+Of\+Packets}}
+\index{get\+List\+Of\+Packets@{get\+List\+Of\+Packets}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+List\+Of\+Packets(\+List$<$ User\+Device $>$ m\+List\+Of\+User\+Devices)}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, List$<${\bf Packet}$>$ $>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+List\+Of\+Packets (
+\begin{DoxyParamCaption}
+\item[{List$<$ User\+Device $>$}]{m\+List\+Of\+User\+Devices}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a45f244e08d3e5e71c745c1517f14e419}
+Provides a list of available packets to be sent to the given peers \begin{DoxyReturn}{Returns}
+List of Packets available to send or null if Content Manager is not available. 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9a667c08f302af1b2d3b8a934739505d}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+Local\+Info@{get\+Local\+Info}}
+\index{get\+Local\+Info@{get\+Local\+Info}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+Local\+Info()}]{\setlength{\rightskip}{0pt plus 5cm}List$<$String$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+Local\+Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9a667c08f302af1b2d3b8a934739505d}
+Provides the M\+A\+C Address of local Bluetooth adapter \begin{DoxyReturn}{Returns}
+local\+Mac\+Add The local M\+A\+C Address or null 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_abb25bf0444ba72c9963a04cc7390fd7e}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+Local\+Mac\+Address@{get\+Local\+Mac\+Address}}
+\index{get\+Local\+Mac\+Address@{get\+Local\+Mac\+Address}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+Local\+Mac\+Address()}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+Local\+Mac\+Address (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_abb25bf0444ba72c9963a04cc7390fd7e}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac2b1e57ed2b2a47b4cd44a80ddcf3ef7}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+Local\+Name@{get\+Local\+Name}}
+\index{get\+Local\+Name@{get\+Local\+Name}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+Local\+Name()}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+Local\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac2b1e57ed2b2a47b4cd44a80ddcf3ef7}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9cb0fb0ced4521962b9c44bcb94d61bb}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!get\+S\+W\+List@{get\+S\+W\+List}}
+\index{get\+S\+W\+List@{get\+S\+W\+List}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{get\+S\+W\+List(\+Array\+List$<$ String $>$ m\+Devices)}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$String, Integer$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+get\+S\+W\+List (
+\begin{DoxyParamCaption}
+\item[{Array\+List$<$ String $>$}]{m\+Devices}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a9cb0fb0ced4521962b9c44bcb94d61bb}
+Provides a list of encountered devices and social weight towards them \begin{DoxyReturn}{Returns}
+The list of encountered devices and social weight towards them, or null 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a0a869c067165f75ab986aea8f3befee6}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!new\+Content\+Available@{new\+Content\+Available}}
+\index{new\+Content\+Available@{new\+Content\+Available}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{new\+Content\+Available(\+Packet m\+Packet)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+new\+Content\+Available (
+\begin{DoxyParamCaption}
+\item[{{\bf Packet}}]{m\+Packet}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a0a869c067165f75ab986aea8f3befee6}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a834835f4188adaa5f18fb428934d52b6}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!notify\+Contact\+List\+Updated@{notify\+Contact\+List\+Updated}}
+\index{notify\+Contact\+List\+Updated@{notify\+Contact\+List\+Updated}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{notify\+Contact\+List\+Updated(\+List$<$ User\+Device $>$ m\+List)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+notify\+Contact\+List\+Updated (
+\begin{DoxyParamCaption}
+\item[{List$<$ User\+Device $>$}]{m\+List}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a834835f4188adaa5f18fb428934d52b6}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a537f880b57016bb88d8f806977c4b8af}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!notify\+Device\+Disappear@{notify\+Device\+Disappear}}
+\index{notify\+Device\+Disappear@{notify\+Device\+Disappear}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{notify\+Device\+Disappear(\+User\+Device m\+User\+Device)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+notify\+Device\+Disappear (
+\begin{DoxyParamCaption}
+\item[{User\+Device}]{m\+User\+Device}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a537f880b57016bb88d8f806977c4b8af}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2a7f53b5e97ec419cff6ff3022d60d70}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!notify\+Error@{notify\+Error}}
+\index{notify\+Error@{notify\+Error}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{notify\+Error(int m\+Error)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+notify\+Error (
+\begin{DoxyParamCaption}
+\item[{int}]{m\+Error}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2a7f53b5e97ec419cff6ff3022d60d70}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_acfb99144155277bff901572b3c574c38}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!notify\+New\+Device\+Found@{notify\+New\+Device\+Found}}
+\index{notify\+New\+Device\+Found@{notify\+New\+Device\+Found}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{notify\+New\+Device\+Found(\+User\+Device m\+User\+Device)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+notify\+New\+Device\+Found (
+\begin{DoxyParamCaption}
+\item[{User\+Device}]{m\+User\+Device}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_acfb99144155277bff901572b3c574c38}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa13558862a8cf3b097941b784cd81adc}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!notify\+Packet\+Received@{notify\+Packet\+Received}}
+\index{notify\+Packet\+Received@{notify\+Packet\+Received}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{notify\+Packet\+Received(\+List$<$ Packet $>$ m\+List\+Of\+Packets)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+notify\+Packet\+Received (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Packet} $>$}]{m\+List\+Of\+Packets}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa13558862a8cf3b097941b784cd81adc}
+Notifies the Content\+Manager class that a new packet arrived. 
+\begin{DoxyParams}{Parameters}
+{\em m\+Packet} & Packet arrived \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a226edc7be42ceb42c6a010685cdc7034}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!set\+Routing\+Listener@{set\+Routing\+Listener}}
+\index{set\+Routing\+Listener@{set\+Routing\+Listener}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{set\+Routing\+Listener(\+Routing\+Listener listener)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+set\+Routing\+Listener (
+\begin{DoxyParamCaption}
+\item[{{\bf Routing\+Listener}}]{listener}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a226edc7be42ceb42c6a010685cdc7034}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac888bfc58783ff88e2d59266c83d626e}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!stop@{stop}}
+\index{stop@{stop}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{stop()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+router.\+Routing.\+stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_ac888bfc58783ff88e2d59266c83d626e}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a7be56b16f52fd380dc20886c7b660878}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!listeners@{listeners}}
+\index{listeners@{listeners}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{listeners}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<${\bf Routing\+Listener}$>$ com.\+copelabs.\+oiframework.\+router.\+Routing.\+listeners = new Array\+List$<${\bf Routing\+Listener}$>$ ()}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a7be56b16f52fd380dc20886c7b660878}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2d75c4e7f78ea50811f94541832a64d1}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!p\+Social\+Proximity@{p\+Social\+Proximity}}
+\index{p\+Social\+Proximity@{p\+Social\+Proximity}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{p\+Social\+Proximity}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Social\+Proximity} com.\+copelabs.\+oiframework.\+router.\+Routing.\+p\+Social\+Proximity\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a2d75c4e7f78ea50811f94541832a64d1}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa0ebfed6845783ed64cd90cce80d56e0}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!p\+Wi\+Fi\+Direct@{p\+Wi\+Fi\+Direct}}
+\index{p\+Wi\+Fi\+Direct@{p\+Wi\+Fi\+Direct}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{p\+Wi\+Fi\+Direct}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Wi\+Fi\+Direct} com.\+copelabs.\+oiframework.\+router.\+Routing.\+p\+Wi\+Fi\+Direct\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_aa0ebfed6845783ed64cd90cce80d56e0}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a49b371c77210ef1dd565cc7c9217b046}{}\index{com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}!T\+A\+G@{T\+A\+G}}
+\index{T\+A\+G@{T\+A\+G}!com\+::copelabs\+::oiframework\+::router\+::\+Routing@{com\+::copelabs\+::oiframework\+::router\+::\+Routing}}
+\subsubsection[{T\+A\+G}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\+copelabs.\+oiframework.\+router.\+Routing.\+T\+A\+G =\char`\"{}Routing\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing_a49b371c77210ef1dd565cc7c9217b046}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/copelabs/oiframework/router/\hyperlink{_routing_8java}{Routing.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,188 @@
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager}{}\section{com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager Class Reference}
+\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager}\index{com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager@{com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager}}
+Inheritance diagram for com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a82247d9b6404ed835f30322e4d9d555c}{on\+Create} ()
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a044b9fff26d4a9ad967cbacd0ac967bd}{on\+Destroy} ()
+\item 
+I\+Binder \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a4f0e6894e934e8f67a51f311af90ee19}{on\+Bind} (Intent intent)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aa48dc62ec9f9588a1eccfc532519a9b1}{initialize\+Modules} ()
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aff3f09048a8e2950db68b814784135be}{init\+T\+T\+L\+\_\+\+Timer} ()
+\item 
+boolean \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a843d5651fb973b0ba921010858592cf9}{send\+Packet\+To\+App} (\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} m\+Packet)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a6efcf27814c50d4fdca421d929c8ac7d}{receive\+Packet} (List$<$ \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} $>$ m\+List\+Of\+Packets)
+\item 
+boolean \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a398ef49c6126668a488e7f41cb26a732}{is\+Packet\+Duplicated} (\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} m\+New\+Packet, String m\+File)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a44e01742b6c02503c2b9949cf68ae372}{new\+Device\+Found\+To\+App} (User\+Device m\+Device)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a9223b3fb51dfb77db68652dbdd6d1c97}{device\+Lost\+To\+App} (User\+Device m\+Device)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a39ef377cc2c6398ec52253bb5b362aec}{send\+Error} (int m\+Error)
+\item 
+void \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aeffc5e72d64f214dbe1b744b2f2565b9}{contact\+List\+Updated\+To\+App} (List$<$ User\+Device $>$ m\+List)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1copelabs_1_1oiframework_1_1router_1_1_routing}{Routing} \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a15b9d671e7079dd1c471a4b6a331f3e8}{p\+Routing}
+\item 
+int \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a804a8e78c97fca907d1752b0176a1a57}{interface\+Enabled} = 1
+\item 
+final I\+Remote\+Oi\+Framework.\+Stub \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a530fa8b90c4758fdbad5f0973ea488e8}{m\+Binder}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a5768346882b7f03d78b3e2e09ff482fa}{T\+A\+G} = \char`\"{}Oi\+Service\char`\"{}
+\item 
+static final String \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a54253c268f02b62bf5db606859ab7b5b}{T\+A\+G2} = \char`\"{}Oi Demo\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aeffc5e72d64f214dbe1b744b2f2565b9}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!contact\+List\+Updated\+To\+App@{contact\+List\+Updated\+To\+App}}
+\index{contact\+List\+Updated\+To\+App@{contact\+List\+Updated\+To\+App}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{contact\+List\+Updated\+To\+App(\+List$<$ User\+Device $>$ m\+List)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+contact\+List\+Updated\+To\+App (
+\begin{DoxyParamCaption}
+\item[{List$<$ User\+Device $>$}]{m\+List}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aeffc5e72d64f214dbe1b744b2f2565b9}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a9223b3fb51dfb77db68652dbdd6d1c97}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!device\+Lost\+To\+App@{device\+Lost\+To\+App}}
+\index{device\+Lost\+To\+App@{device\+Lost\+To\+App}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{device\+Lost\+To\+App(\+User\+Device m\+Device)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+device\+Lost\+To\+App (
+\begin{DoxyParamCaption}
+\item[{User\+Device}]{m\+Device}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a9223b3fb51dfb77db68652dbdd6d1c97}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aa48dc62ec9f9588a1eccfc532519a9b1}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!initialize\+Modules@{initialize\+Modules}}
+\index{initialize\+Modules@{initialize\+Modules}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{initialize\+Modules()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+initialize\+Modules (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aa48dc62ec9f9588a1eccfc532519a9b1}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aff3f09048a8e2950db68b814784135be}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!init\+T\+T\+L\+\_\+\+Timer@{init\+T\+T\+L\+\_\+\+Timer}}
+\index{init\+T\+T\+L\+\_\+\+Timer@{init\+T\+T\+L\+\_\+\+Timer}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{init\+T\+T\+L\+\_\+\+Timer()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+init\+T\+T\+L\+\_\+\+Timer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_aff3f09048a8e2950db68b814784135be}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a398ef49c6126668a488e7f41cb26a732}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!is\+Packet\+Duplicated@{is\+Packet\+Duplicated}}
+\index{is\+Packet\+Duplicated@{is\+Packet\+Duplicated}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{is\+Packet\+Duplicated(\+Packet m\+New\+Packet, String m\+File)}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+is\+Packet\+Duplicated (
+\begin{DoxyParamCaption}
+\item[{{\bf Packet}}]{m\+New\+Packet, }
+\item[{String}]{m\+File}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a398ef49c6126668a488e7f41cb26a732}
+Check if the new packet received is already saved inside the Local Cache file 
+\begin{DoxyParams}{Parameters}
+{\em m\+New\+Packet} & \hyperlink{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_packet}{Packet} to check if it this duplicated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if is already available at local cache or false if not. 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a44e01742b6c02503c2b9949cf68ae372}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!new\+Device\+Found\+To\+App@{new\+Device\+Found\+To\+App}}
+\index{new\+Device\+Found\+To\+App@{new\+Device\+Found\+To\+App}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{new\+Device\+Found\+To\+App(\+User\+Device m\+Device)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+new\+Device\+Found\+To\+App (
+\begin{DoxyParamCaption}
+\item[{User\+Device}]{m\+Device}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a44e01742b6c02503c2b9949cf68ae372}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a4f0e6894e934e8f67a51f311af90ee19}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!on\+Bind@{on\+Bind}}
+\index{on\+Bind@{on\+Bind}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{on\+Bind(\+Intent intent)}]{\setlength{\rightskip}{0pt plus 5cm}I\+Binder com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+on\+Bind (
+\begin{DoxyParamCaption}
+\item[{Intent}]{intent}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a4f0e6894e934e8f67a51f311af90ee19}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a82247d9b6404ed835f30322e4d9d555c}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!on\+Create@{on\+Create}}
+\index{on\+Create@{on\+Create}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{on\+Create()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+on\+Create (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a82247d9b6404ed835f30322e4d9d555c}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a044b9fff26d4a9ad967cbacd0ac967bd}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!on\+Destroy@{on\+Destroy}}
+\index{on\+Destroy@{on\+Destroy}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{on\+Destroy()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+on\+Destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a044b9fff26d4a9ad967cbacd0ac967bd}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a6efcf27814c50d4fdca421d929c8ac7d}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!receive\+Packet@{receive\+Packet}}
+\index{receive\+Packet@{receive\+Packet}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{receive\+Packet(\+List$<$ Packet $>$ m\+List\+Of\+Packets)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+receive\+Packet (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Packet} $>$}]{m\+List\+Of\+Packets}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a6efcf27814c50d4fdca421d929c8ac7d}
+Method used by the others packages, when a new packet arrived. It checks if the packet is for this device. If it is, tries to send to the correct app. If not saves the packet to a file. 
+\begin{DoxyParams}{Parameters}
+{\em m\+Packet} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a39ef377cc2c6398ec52253bb5b362aec}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!send\+Error@{send\+Error}}
+\index{send\+Error@{send\+Error}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{send\+Error(int m\+Error)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+send\+Error (
+\begin{DoxyParamCaption}
+\item[{int}]{m\+Error}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a39ef377cc2c6398ec52253bb5b362aec}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a843d5651fb973b0ba921010858592cf9}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!send\+Packet\+To\+App@{send\+Packet\+To\+App}}
+\index{send\+Packet\+To\+App@{send\+Packet\+To\+App}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{send\+Packet\+To\+App(\+Packet m\+Packet)}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+send\+Packet\+To\+App (
+\begin{DoxyParamCaption}
+\item[{{\bf Packet}}]{m\+Packet}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a843d5651fb973b0ba921010858592cf9}
+Method the tries to send the packet to the correct app. 
+\begin{DoxyParams}{Parameters}
+{\em m\+Packet} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if packet was successfully sent, false if app is not available (callback not registered) 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a804a8e78c97fca907d1752b0176a1a57}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!interface\+Enabled@{interface\+Enabled}}
+\index{interface\+Enabled@{interface\+Enabled}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{interface\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}int com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+interface\+Enabled = 1\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a804a8e78c97fca907d1752b0176a1a57}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a530fa8b90c4758fdbad5f0973ea488e8}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!m\+Binder@{m\+Binder}}
+\index{m\+Binder@{m\+Binder}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{m\+Binder}]{\setlength{\rightskip}{0pt plus 5cm}final I\+Remote\+Oi\+Framework.\+Stub com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+m\+Binder\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a530fa8b90c4758fdbad5f0973ea488e8}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a15b9d671e7079dd1c471a4b6a331f3e8}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!p\+Routing@{p\+Routing}}
+\index{p\+Routing@{p\+Routing}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{p\+Routing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Routing} com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+p\+Routing\hspace{0.3cm}{\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a15b9d671e7079dd1c471a4b6a331f3e8}
+\hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a5768346882b7f03d78b3e2e09ff482fa}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!T\+A\+G@{T\+A\+G}}
+\index{T\+A\+G@{T\+A\+G}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{T\+A\+G}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+T\+A\+G = \char`\"{}Oi\+Service\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a5768346882b7f03d78b3e2e09ff482fa}
+Follow Field Naming Conventions
+
+Non-\/public, non-\/static field names start with m. Static field names start with s. Other fields start with a lower case letter. m stands for member variable or data member. Public static final fields (constants) are A\+L\+L\+\_\+\+C\+A\+P\+S\+\_\+\+W\+I\+T\+H\+\_\+\+U\+N\+D\+E\+R\+S\+C\+O\+R\+E\+S. \hypertarget{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a54253c268f02b62bf5db606859ab7b5b}{}\index{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}!T\+A\+G2@{T\+A\+G2}}
+\index{T\+A\+G2@{T\+A\+G2}!com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager@{com\+::copelabs\+::oiframework\+::contentmanager\+::\+Content\+Manager}}
+\subsubsection[{T\+A\+G2}]{\setlength{\rightskip}{0pt plus 5cm}final String com.\+copelabs.\+oiframework.\+contentmanager.\+Content\+Manager.\+T\+A\+G2 = \char`\"{}Oi Demo\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\label{classcom_1_1copelabs_1_1oiframework_1_1contentmanager_1_1_content_manager_a54253c268f02b62bf5db606859ab7b5b}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/copelabs/oiframework/contentmanager/\hyperlink{_content_manager_8java}{Content\+Manager.\+java}\end{DoxyCompactItemize}
